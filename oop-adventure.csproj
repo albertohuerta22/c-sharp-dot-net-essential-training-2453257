@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>oop_adventure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Src\" />
+    <None Remove="Src\Text\" />
+    <None Remove="Src\Characters\" />
+    <None Remove="Src\Map\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Src\" />
+    <Folder Include="Src\Text\" />
+    <Folder Include="Src\Characters\" />
+    <Folder Include="Src\Map\" />
+  </ItemGroup>
+</Project>
