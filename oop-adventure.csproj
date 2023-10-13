@@ -13,11 +13,13 @@
     <None Remove="Src\Text\" />
     <None Remove="Src\Characters\" />
     <None Remove="Src\Map\" />
+    <None Remove="Src\Actions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Src\" />
     <Folder Include="Src\Text\" />
     <Folder Include="Src\Characters\" />
     <Folder Include="Src\Map\" />
+    <Folder Include="Src\Actions\" />
   </ItemGroup>
 </Project>

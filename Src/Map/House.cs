@@ -6,6 +6,10 @@ public partial class House
 
     private readonly Random _rnd = new(1234);
 
+    public int Weigth { get; set; }
+    public int Height { get; set; }
+    public Room[] Rooms { get; private set; }
+
     public House(Player player)
     {
         Player = player;
